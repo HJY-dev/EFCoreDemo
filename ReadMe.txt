@@ -1,10 +1,12 @@
-//Êı¾İÇ¨ÒÆÃüÁî
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=HJY-dev)](https://github.com/anuraghazra/github-readme-stats)
+
+### æ•°æ®è¿ç§»å‘½ä»¤
 Add-Migration InitialCreate
 Update-Database
 Script-Migration
 
-//Î¢Èí¹Ù·½ÎÄµµ
+### å¾®è½¯å®˜æ–¹æ–‡æ¡£
 https://docs.microsoft.com/zh-cn/ef/core/
 
-//EFCore À©Õ¹
+### EFCore æ‰©å±•
 https://github.com/yangzhongke/Zack.EFCore.Batch
