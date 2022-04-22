@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "一对一", "一对一\一�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "多对多", "多对多\多对多.csproj", "{2CB5F754-66DC-40EB-AC27-0B85B9EF5E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "复杂查询", "复杂查询\复杂查询.csproj", "{A78B42B8-2783-4829-BF53-4289A1E9D8E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "复杂查询", "复杂查询\复杂查询.csproj", "{A78B42B8-2783-4829-BF53-4289A1E9D8E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "分库分表", "分库分表\分库分表.csproj", "{33D615E8-83B0-4B69-830B-8F98C33E28E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "分库分表", "分库分表\分库分表.csproj", "{33D615E8-83B0-4B69-830B-8F98C33E28E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using资源释放", "Using资源释放\Using资源释放.csproj", "{3205B963-EECC-411D-ACB0-94C6D7EC477B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{33D615E8-83B0-4B69-830B-8F98C33E28E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33D615E8-83B0-4B69-830B-8F98C33E28E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33D615E8-83B0-4B69-830B-8F98C33E28E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3205B963-EECC-411D-ACB0-94C6D7EC477B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3205B963-EECC-411D-ACB0-94C6D7EC477B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3205B963-EECC-411D-ACB0-94C6D7EC477B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3205B963-EECC-411D-ACB0-94C6D7EC477B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

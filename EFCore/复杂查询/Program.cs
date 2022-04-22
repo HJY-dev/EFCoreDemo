@@ -3,6 +3,7 @@ using Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 
@@ -12,8 +13,15 @@ namespace 复杂查询
     {
         static void Main(string[] args)
         {
+            #region 平均值
+
+            List<student> lists = new List<student>() { new student { score = 90 }, new student { score = 70 }, new student { score = 80 } };
+            var a = lists.Select(x => x.score).Average();
+
+            #endregion
+
             #region 组织结构树
-            using(MyDbContext ctx = new MyDbContext ())
+            using (MyDbContext ctx = new MyDbContext ())
             {
                 Organization o1 = new Organization { Name = "科技集团" };
                 Organization o2 = new Organization { Name = "总经办" };
@@ -244,5 +252,10 @@ namespace 复杂查询
 
             Console.ReadKey();
         }
+    }
+
+    public class student
+    {
+        public float score { get; set; }
     }
 }
